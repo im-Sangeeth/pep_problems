@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        
+        function print(x){
+            if(x>=91&&x<=100)
+            document.write("O-grade");
+
+            else if(x>=81&&x<=90)
+            document.write("A-grade");
+
+            else if(x>=71&&x<=80)
+            document.write("B-grade");
+            else if(x>=51&&x<=70)
+            document.write("C-grade");
+
+            else
+            document.write("D-grade");
+            }
+        var x=parseInt(prompt("Enter the mark:"));
+        print(x);
+    </script>
+</body>
+</html>

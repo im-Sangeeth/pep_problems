@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+    margin-bottom: 5px;
+    background-image:linear-gradient(rgb(253, 160, 176),white,rgb(242, 102, 242));
+}
+button:hover{
+    background-image:linear-gradient(violet,white,pink);
+}

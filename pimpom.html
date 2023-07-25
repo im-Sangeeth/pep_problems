@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pimpom</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        
+        function print(x){
+            for(var i=1;i<=x;i++){
+            if(i%3==0&&i%5==0)
+            document.write("pimpom");
+            else if(i%3==0)
+            document.write("pim");
+            else if(i%5==0)
+            document.write("pom");
+            else
+            document.write(i);
+            document.write("<br>");
+            document.write("<br>");
+            }
+        }
+        var x=parseInt(prompt("Enter the Range:"));
+        print(x);
+    </script>
+</body>
+</html>
